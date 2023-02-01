@@ -15,6 +15,7 @@ public class TeleportCube : MonoBehaviour
     
     public GameObject maincontroller;
     public GameObject shipcontroller;
+    public GameObject cranecontroller;
 
 
 
@@ -61,5 +62,17 @@ public class TeleportCube : MonoBehaviour
     {
         shipcontroller.SetActive(false);
         maincontroller.SetActive(true);
+    }
+
+    public void CraneTeleport()
+    {
+        maincontroller.SetActive(false);
+        cranecontroller.SetActive(true);
+    }
+
+    public void CraneBack()
+    {
+        maincontroller.SetActive(true);
+        cranecontroller.SetActive(false);
     }
 }
