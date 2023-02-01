@@ -45,7 +45,7 @@ public class MovementButton : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(other == presser)
+        if(other.gameObject == presser)
         {
             button.transform.localPosition = new Vector3(0, 0.02f, 0);
             onRelease.Invoke();
