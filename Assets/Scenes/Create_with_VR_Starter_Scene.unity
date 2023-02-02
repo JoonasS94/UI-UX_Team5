@@ -552,7 +552,11 @@ PrefabInstance:
     - target: {fileID: 722591214549835038, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c4470869001efeb4b978fa746173f18d, type: 2}
+      objectReference: {fileID: 2100000, guid: 47b8310bd4e2c2141b198a3f5378bb50, type: 2}
+    - target: {fileID: 722591215677909515, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf559da6da3144942a167259849141bb, type: 2}
     - target: {fileID: 722591216023754147, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: m_Name
       value: TeleButtonCrane
@@ -3499,6 +3503,10 @@ PrefabInstance:
       propertyPath: m_ForceGravityOnDetach
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1963712224256040888, guid: 97e89670ed7696d489d6ddba4543a01b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2df9d06a9b6e4de4f8bb938f799f0baf, type: 2}
     - target: {fileID: 2361221234566090267, guid: 97e89670ed7696d489d6ddba4543a01b, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6440,6 +6448,14 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 1039617825}
+    - target: {fileID: 1145393437777626801, guid: 76e436b666f4e3d4b8ffa548dd600ce8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9de17bb6275b22649be20dd6f9544fca, type: 2}
+    - target: {fileID: 1362607767981526524, guid: 76e436b666f4e3d4b8ffa548dd600ce8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8da8252ac7a22f1449ab27b0d10b833c, type: 2}
     - target: {fileID: 7444192913978105922, guid: 76e436b666f4e3d4b8ffa548dd600ce8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6674,7 +6690,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 47b8310bd4e2c2141b198a3f5378bb50, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7869,7 +7885,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 7f95881b2ee90514eb3e8d243bb347d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8230,7 +8246,11 @@ PrefabInstance:
     - target: {fileID: 722591214549835038, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c4470869001efeb4b978fa746173f18d, type: 2}
+      objectReference: {fileID: 2100000, guid: e2742f8259825a941bf95e26acd942d2, type: 2}
+    - target: {fileID: 722591215677909515, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf559da6da3144942a167259849141bb, type: 2}
     - target: {fileID: 722591216023754147, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: m_Name
       value: TeleButtonC
@@ -10630,13 +10650,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319361919}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.089552015, y: -0.88572776, z: 0.4130195, w: 0.19204636}
   m_LocalPosition: {x: -8.142822, y: -30.930515, z: 39.669403}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 131781628}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -155.533, z: 0}
 --- !u!1 &1323506890
 GameObject:
   m_ObjectHideFlags: 0
@@ -13550,6 +13570,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1707013194855824180, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8da8252ac7a22f1449ab27b0d10b833c, type: 2}
     - target: {fileID: 1707013194947872581, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -13606,6 +13630,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3011252020758871630, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8d276097d710464298774925f6816d4, type: 2}
     - target: {fileID: 4129069011741641782, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
       propertyPath: OnYValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -13642,6 +13670,22 @@ PrefabInstance:
       propertyPath: OnYValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MoveWithVelocity, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 4644369414697365653, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8d276097d710464298774925f6816d4, type: 2}
+    - target: {fileID: 4644369414801639889, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8d276097d710464298774925f6816d4, type: 2}
+    - target: {fileID: 4644369414861823385, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2742f8259825a941bf95e26acd942d2, type: 2}
+    - target: {fileID: 4644369414900049117, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2742f8259825a941bf95e26acd942d2, type: 2}
     - target: {fileID: 6371802978707372509, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
       propertyPath: OnLeverActivate.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -13762,6 +13806,10 @@ PrefabInstance:
       propertyPath: OnLeverDeactivate.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6846427230208069948, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf559da6da3144942a167259849141bb, type: 2}
     - target: {fileID: 8832080948187866541, guid: 015eaf35be978c646831c4f9aae827c3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -16613,6 +16661,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035311754}
     m_Modifications:
+    - target: {fileID: 722591214549835038, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 47b8310bd4e2c2141b198a3f5378bb50, type: 2}
+    - target: {fileID: 722591215677909515, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8d276097d710464298774925f6816d4, type: 2}
     - target: {fileID: 722591216023754147, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: m_Name
       value: TeleButtonShip
