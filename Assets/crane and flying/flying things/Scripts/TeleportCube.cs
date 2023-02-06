@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class TeleportCube : MonoBehaviour
 {
@@ -74,5 +75,10 @@ public class TeleportCube : MonoBehaviour
     {
         maincontroller.SetActive(true);
         cranecontroller.SetActive(false);
+    }
+
+    public void Sceneloader(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

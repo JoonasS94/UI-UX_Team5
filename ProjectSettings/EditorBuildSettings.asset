@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
     guid: afdcb113ffd5a4353ad88f0dd03743af
+  - enabled: 1
+    path: Assets/Scenes/Flyingscene.unity
+    guid: 361e375261885034cbeccb28ae871d33
+  - enabled: 1
+    path: Assets/Scenes/Cranegames.unity
+    guid: 8f0b64038ef5cb1488606f9903fa202f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8fccb80e6c9a84389a75f2c1ed4d786d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d3134b6f939114be9b8d6dbeff42d453, type: 2}
