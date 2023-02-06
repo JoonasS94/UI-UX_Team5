@@ -635,7 +635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -647,11 +647,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CraneTeleport
+      value: Sceneloader
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TeleportCube, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Cranegames
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4110,7 +4114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &293176420
 Transform:
   m_ObjectHideFlags: 0
@@ -8305,7 +8309,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3603537790198395107, guid: 0f882744ddde68c4dbb9f332de765194, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3603537790198395107, guid: 0f882744ddde68c4dbb9f332de765194, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15375,6 +15379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SafetyChair 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8166789060260152145, guid: 30966e04daa41e846b0bf501b591dd77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8188335892357444392, guid: 30966e04daa41e846b0bf501b591dd77, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -20579,7 +20587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -20591,11 +20599,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShipTeleport
+      value: Sceneloader
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TeleportCube, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Flyingscene
       objectReference: {fileID: 0}
     - target: {fileID: 3832557893358206939, guid: d4a11306e3a6b1b43894818f03468147, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
